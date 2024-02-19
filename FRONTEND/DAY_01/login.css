@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:poppins;
+    font-weight: 700;
+
+}
+input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 101vh;
+    background-color:rgb(222, 227, 241);
+    padding-bottom: 0px;
+}
+
+.llogo {
+    border-radius: 8px 0px 0px 8px;
+    height:590px;
+    max-width: 600px;
+    margin-left: 20px;
+  }
+  .email
+  {
+    width: 200px;
+  }
+  .login {
+    background-color: #fff;
+    border-radius: 0px 8px 8px 0px;
+    padding: 200px;
+    width: 550px;
+    margin-right: 19px;
+    height: 190px;
+   
+  }
+  
+  .login form {
+    margin-top: 0;
+    margin-right: 900px;
+    margin-bottom: 0px;
+}
+.login form h2
+{ 
+     margin-top: 0;
+     margin-bottom: 2px;
+}
+.login form input::placeholder
+{
+  font-family: poppins;
+  text-align: center;
+}
+.login form input {
+  text-align: center;
+    background-color: transparent;
+    width: 300px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: poppins;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  .login form input:focus
+  {
+     font-family: poppins;
+     outline-color:#004182;
+  }
+  .login form button {
+    width: 150px;
+    padding: 10px;
+    background-color: #004182;
+    color: #fff;
+    border: none;
+    font-size: medium;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family:poppins;
+  }
+  .login error
+  {
+    color:"red";
+    font-size: small;
+    font-weight: bolder;
+  }
+  .login form button:disabled {
+    background-color:#80abd9;
+    cursor: not-allowed;
+  }
+  
+  .login form button:hover:not(:disabled) {
+    background-color: #004182;
+  }
