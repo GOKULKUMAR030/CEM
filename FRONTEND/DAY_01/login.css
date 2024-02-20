@@ -1,101 +1,142 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family:poppins;
-    font-weight: 700;
-
-}
-input::placeholder {
-    color: #999;
-    font-style: italic;
-}
-.main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 101vh;
-    background-color:rgb(222, 227, 241);
-    padding-bottom: 0px;
-}
-
-.llogo {
-    border-radius: 8px 0px 0px 8px;
-    height:590px;
-    max-width: 600px;
-    margin-left: 20px;
-  }
-  .email
-  {
-    width: 200px;
-  }
-  .login {
-    background-color: #fff;
-    border-radius: 0px 8px 8px 0px;
-    padding: 200px;
-    width: 550px;
-    margin-right: 19px;
-    height: 190px;
-   
-  }
-  
-  .login form {
-    margin-top: 0;
-    margin-right: 900px;
-    margin-bottom: 0px;
-}
-.login form h2
-{ 
-     margin-top: 0;
-     margin-bottom: 2px;
-}
-.login form input::placeholder
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+body
 {
-  font-family: poppins;
-  text-align: center;
+  font-family: Bricolage Grotesque;
 }
-.login form input {
-  text-align: center;
-    background-color: transparent;
-    width: 300px;
-    padding: 10px;
-    font-weight: bold;
-    font-family: poppins;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 15px;
+.login-page {
+  display: flex;
+  height: 87vh;
+  font-family: Bricolage Grotesque;
+}
+.navbar {
+  background-color: #ffffff;
+  color: #0c0900;
+  font-family: Bricolage Grotesque;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  list-style: none;
+  margin: 0;
+}
+
+.navbar-item {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar-title {
+  font-size: xx-large;
+}
+
+.navbar-signup {
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.left-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/doodle8.png'); /* Set the image as background */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat; /* No repeating */
+  color: #fff;
+  padding: 20px; /* Add padding for spacing */
+}
+.illustration {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: Add border radius to match container */
+  margin-bottom: 20px; /* Optional: Add margin for spacing */
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 350px;
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+  font-family: Bricolage Grotesque;
+
+}
+input::placeholder
+{
+  font-weight: bold;
+}
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  width: 10vw;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-family: Bricolage Grotesque;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.error {
+  color: #dc3545;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  margin-top: 5px;
+  font-family: Bricolage Grotesque;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .login-page {
+    flex-direction: column;
   }
-  .login form input:focus
-  {
-     font-family: poppins;
-     outline-color:#004182;
+
+  .left-container {
+    padding: 40px;
+    text-align: center;
   }
-  .login form button {
-    width: 150px;
-    padding: 10px;
-    background-color: #004182;
-    color: #fff;
-    border: none;
-    font-size: medium;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 70px;
-    margin-top: 10px;
-    font-family:poppins;
+
+  .right-container {
+    padding: 40px;
+    justify-content: center; /* Center form for smaller screens */
   }
-  .login error
-  {
-    color:"red";
-    font-size: small;
-    font-weight: bolder;
+
+  .login-form {
+    width: 100%;
+    max-width: 300px; /* Adjust width for smaller screens */
   }
-  .login form button:disabled {
-    background-color:#80abd9;
-    cursor: not-allowed;
-  }
-  
-  .login form button:hover:not(:disabled) {
-    background-color: #004182;
-  }
+}
