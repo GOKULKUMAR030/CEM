@@ -1,0 +1,59 @@
+/* Navbar Container */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Marck+Script&display=swap');
+.navbar {
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  /* Navbar Brand */
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  /* Navbar Brand Logo */
+  .navbar-brand-logo {
+    font-family: Marck Script;
+    font-size: xx-large;
+  }
+  
+ 
+/* Navbar Menu */
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .navbar-menu-item {
+    
+    margin-right: 20px;
+    cursor: pointer;
+    padding-left: 60px;
+  }
+  
+  /* Profile */
+  .navbar-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    margin-right: 10px;
+  }
+  
+
+  
