@@ -1,0 +1,65 @@
+/* CreatePackage.css */
+
+.create-package-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.create-package-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-package-form {
+  margin-top: 20px;
+
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+.form-group-package {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.create-input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.features-list {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+.feature-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
