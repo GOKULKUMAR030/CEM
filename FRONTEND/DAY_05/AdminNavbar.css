@@ -1,0 +1,54 @@
+/* AdminNavbar Container */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Marck+Script&display=swap');
+.admin-navbar {
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+}
+  
+/* AdminNavbar Brand */
+.admin-navbar-brand {
+    font-size: 24px;
+}
+
+/* AdminNavbar Brand Logo */
+.admin-navbar-brand-logo {
+    font-family: Marck Script;
+    font-size: xx-large;
+}
+
+/* AdminNavbar Menu */
+.admin-navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.admin-navbar-menu-item {
+    margin-right: 20px;
+    cursor: pointer;
+    padding-left: 60px;
+}
+
+/* Profile */
+.admin-navbar-profile {
+    display: flex;
+    align-items: center;
+}
+
+.admin-profile-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.admin-profile-name {
+    margin-right: 10px;
+}

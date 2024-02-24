@@ -1,0 +1,44 @@
+.admin-enquiry-view-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+    font-family: Bricolage Grotesque;
+  }
+  
+  .admin-enquiry-view-search {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  
+  .global-link {
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  .admin-enquiry-view-row {
+    max-width: 70%;
+    margin-left: 5%;
+  }
+  
+  .admin-enquiry-view-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .admin-enquiry-view-card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .admin-enquiry-view-container {
+    font-family: Bricolage Grotesque;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-enquiry-view-card {
+      margin-bottom: 20px;
+    }
+  }

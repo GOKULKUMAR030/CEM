@@ -1,0 +1,45 @@
+.admin-event-view-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+    font-family: Bricolage Grotesque;
+  }
+  
+  .admin-event-view-search {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  
+  .global-link {
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  .admin-event-view-row {
+    max-width: 70%;
+    margin-left: 5%;
+  }
+  
+  .admin-event-view-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .admin-event-view-card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .admin-event-view-container {
+    font-family: Bricolage Grotesque;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-event-view-card {
+      margin-bottom: 20px;
+    }
+  }
+  
